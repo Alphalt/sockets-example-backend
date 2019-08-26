@@ -1,0 +1,20 @@
+{
+  "name": "socket-server",
+  "version": "1.0.0",
+  "description": "socket server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "author": "Camila Alzate",
+  "license": "MIT",
+  "dependencies": {
+    "@types/socket.io": "^2.1.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.15",
+    "nodemon": "^1.18.10",
+    "socket.io": "^2.2.0"
+  }
+}
